@@ -1,10 +1,27 @@
+@font-face {
+  font-family: bloodSeeker;
+  src: url(assets/bloodseeker.ttf);
+}
+
+@font-face {
+  font-family: montserrat;
+  src: url(assets/montserrat.ttf);
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: montserrat !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+}
+
+button, input {
+  font-family: montserrat;
+}
+
+h2 {
+  font-family: bloodSeeker;
 }
 
 code {
